@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    /* margin-top: 20vh; */
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 300px;
+    width: 450px;
+    display: block;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.header{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.header h3{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header p{
+    margin-top: 0;
+    padding: 0 40px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.passcode{
+    margin-top: 10px;;
+    margin-bottom: 10px;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.password{
+    height: 65px;
+    width: 50px;
+    border: 1px solid rgb(101, 213, 241);
+    margin-left: 3px;
+    border-radius: 3px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.password:focus{
+    outline: none !important;
+    border: 1px solid rgb(39, 94, 196);
+
+    box-shadow: 0px 10px 19px -7px rgba(43,39,43,0.41);
+}
+
+.password:valid{
+    box-shadow: 0px 10px 19px -7px rgba(43,39,43,0.41);
+}
+
+.footer{
+    width: 250px;
+   display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 5px;
+}
+
+.footer p{
+    padding: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+appearance: none;
+-webkit-appearance: none;
+margin: 0;
+
+}
